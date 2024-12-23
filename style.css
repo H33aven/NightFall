@@ -317,11 +317,15 @@
 
 .work_textet{
   max-width: 1500px;
+  padding-left: 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .paddingworktext6{
   padding: 10px 30px; color:rgb(175, 175, 175);
 }
+
 
 .work_btn{
   color: rgb(221, 221, 221);
