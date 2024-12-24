@@ -488,6 +488,5 @@
 }
 .work_texti{
   display: flex;
-  flex-direction: column-reverse; 
-
+  flex-direction: column-reverse;
 }
