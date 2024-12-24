@@ -545,14 +545,17 @@
   0% {
     transform: rotate(-4deg);
   }
-  33% {
+  25% {
     transform: rotate(4deg);
   }
-  66% {
+  50% {
     transform: rotate(-4deg);
   }
-  100% {
+  75% {
     transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
   }
 }
 
