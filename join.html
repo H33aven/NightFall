@@ -32,11 +32,52 @@
     <section class = "roles_wrap">
         <div class = "roles wrap">
             <h2 class="roles_title">Вступление</h2>
-            <div class = "work_block">
-                <div class = "form wrap">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8MjTSLyVafoCpxq4i5SJWa-b9RFBIjHfDPRw3OehzATXJQw/viewform?embedded=true" width="1920" height="2075" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
-                </div>
 
+            <section>
+                <div class="newformdiv wrap">
+                    <form class="newform" action="https://api.web3forms.com/submit" method="POST">
+
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="bc83405e-e82a-48a7-b296-c6cff05b980c">
+                    
+                        <!-- Form Inputs. Each input must have a name="" attribute -->
+        
+                        <h3 class="formtext">Ник в роблокс?</h3>
+                        <p class="formtext1">На этот ник вам отправят заявку в друзья, если вы будете приняты</p>
+                        <input class="formuinput" type="Ник в роблокс" name="Ник в роблокс:" required>
+        
+                        <h3 class="formtext">Ваш возраст?</h3>
+                        <p class="formtext1">Просто напиши возраст</p>
+                        <input class="formuinput" type="Возраст" name="Возраст:" required>
+        
+                        <h3 class="formtext">Сколько у вас часов наигранно в town?</h3>
+                        <p class="formtext1">Пишите часы с учётом всех аккаунтов в town и в town debug</p>
+                        <input class="formuinput" type="Часы в таун" name="Часов в town:" required>
+        
+                        <h3 class="formtext">Какой позывной вы хотите иметь?</h3>
+                        <p class="formtext1">Позывной - это то, как вас будут звать здесь</p>
+                        <input class="formuinput" type="Позывной" name="Позывной:" required>
+
+                        <h3 class="formtext">Сколько часов в день можете играть? В какой промежуток времени вы можете играть?</h3>
+                        <p class="formtext1">Пишите время по МСК</p>
+                        <textarea class="textarea1" name="Время и промежуток по МСК:" required></textarea>
+                        
+                        <h3 class="formtext">Почему мы должны взять именно вас?</h3>
+                        <p class="formtext1">Напишите свои достоинства</p>
+                        <textarea class="textarea" name="Почему мы должны взять именно его:" required></textarea>
+                    
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    
+                        <!-- Custom Confirmation / Success Page -->
+                        <input type="hidden" name="redirect" value="https://h33aven.github.io/TwinMoon.github.io/thanks.html">
+                    
+                        <button class="form_submit_btn" type="submit">Отправить форму</button>
+                    
+                    </form>
+                </div>
+            </section>
+            
             </div>
         </div>
     </section>
