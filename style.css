@@ -77,7 +77,7 @@
 }
 
 .menu li{
-  margin-left: 30px ;
+  margin-left: 30px ;;
 }
 
 .menu li a{
@@ -103,7 +103,7 @@
 }
 
 .hello_wrap{
-  background: url(imgs/firstbg.jpg) center center no-repeat;
+  background: url(imgs/firstbg.png) center center no-repeat;
   background-size: cover;
   padding: 100px 0px 140px 0px;
   transition-duration: 1s;
@@ -112,14 +112,14 @@
 }
 
 .hello_wrap:hover{
-  background: url(imgs/firstbg.jpg) center center no-repeat;
+  background: url(imgs/firstbg.png) center center no-repeat;
   background-size: cover;
   padding: 100px 0px 140px 0px;
   box-shadow: inset 0px 0px 29px 24px rgb(88, 88, 88, 0.5);
 }
 
 .roles_hello_wrap{
-  background: url(imgs/secondbg.png) center center no-repeat;
+  background: url(imgs/thirdbg.png) center center no-repeat;
   background-size: cover;
   padding: 100px 0px 140px 0px;
   transition-duration: 1s;
@@ -128,7 +128,7 @@
 
 
 .roles_hello_wrap:hover{
-  background: url(imgs/secondbg.png) center center no-repeat;
+  background: url(imgs/thirdbg.png) center center no-repeat;
   background-size: cover;
   padding: 100px 0px 140px 0px;
   box-shadow: inset 0px 0px 29px 24px rgb(88, 88, 88, 0.5);
@@ -431,6 +431,7 @@
   transition-duration: 0.2s;
   margin-top: 20px;
   z-index: 2;
+  font-family: "Comfortaa";
 }
 
 
