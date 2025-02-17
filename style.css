@@ -382,7 +382,7 @@
   min-height: 300px;
   background-color: rgb(27, 27, 27);
   border: 2px solid rgb(221, 221, 221);
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 5px 5px;
   display: inline-block;
   color: rgb(221, 221, 221);
@@ -398,7 +398,7 @@
   min-height: 100px;
   background-color: rgb(27, 27, 27);
   border: 2px solid rgb(221, 221, 221);
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 5px 5px;
   display: inline-block;
   color: rgb(221, 221, 221);
@@ -412,7 +412,7 @@
   font-style: normal;
   background-color: rgb(48, 48, 48);
   border: 2px solid rgb(221, 221, 221);
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 5px 5px;
   display: inline-block;
   color: rgb(221, 221, 221);
