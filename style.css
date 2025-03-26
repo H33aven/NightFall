@@ -468,7 +468,7 @@
   display: inline-block;
   color: rgb(221, 221, 221);
 }
-
+/*
 .form_submit_btn{
   background-color: rgb(27, 27, 27);
   color: rgb(221, 221, 221);
@@ -497,6 +497,29 @@
   padding: 10px 30px;
   display: inline-block;
   margin-top: 20px;
+}
+*/
+.form_submit_btn{
+  border: 0px solid;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:rgb(197, 197, 197); text-decoration: none;
+  background-color: rgb(27, 27, 27, 0);
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+
+.form_submit_btn:hover{
+  border: 0px solid;
+  margin-top: 26px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  color:rgb(44, 44, 44); text-decoration: none;
+  background-color: rgb(197, 197, 197, 1);
+  transition: all 0.2s;
+  margin-bottom: 12px;
 }
 
 .work_imagey{
