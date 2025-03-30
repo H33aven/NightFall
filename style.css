@@ -165,29 +165,50 @@ width: 70px; height: 70px;
 }
 
 .hello_wrap{
-background: url(imgs/firstbg.png) center center no-repeat;
+  /* background-color: rgb(152, 152, 152); */
+background-color: rgb(20,20,20);
+width: 100%; height: 500px;
 background-size: cover;
-padding: 100px 0px 140px 0px;
+padding: 0px 0px 270px 0px;
 transition-duration: 1s;
-z-index: -2;
+z-index: -3;
 }
 
-.hello_wrap:hover{
-background: url(imgs/firstbg.png) center center no-repeat;
-background-size: cover;
-padding: 100px 0px 140px 0px;
+
+.hell{
+  background: url("imgs/firstbg.png");
+  background-size: cover;
+  transition-duration: 1s;
+  z-index: -2;
+  border-radius: bottom 60px;
+  padding: 145px 0;
+  width: 100%;
+  height: 500px;
+}
+
+.hell1{
+  background: url("imgs/thirdbg.png");
+  background-size: cover;
+  transition-duration: 1s;
+  z-index: -2;
+  border-radius: bottom 60px;
+  padding: 145px 0;
+  width: 100%;
+  height: 500px;
 }
 
 .roles_hello_wrap{
-background: url(imgs/thirdbg.png) center center no-repeat;
-background-size: cover;
-padding: 100px 0px 140px 0px;
-
-}
-
+  background-color: rgb(20,20,20);
+  width: 100%; height: 500px;
+  background-size: cover;
+  padding: 0px 0px 270px 0px;
+  transition-duration: 1s;
+  z-index: -3;
+  }
 
 .hello{
 text-align: center;
+padding-bottom: 500px;
 }
 
 .twinmoon_text{
