@@ -60,100 +60,29 @@ body{font-family:Comfortaa;color:#f0f0f0;line-height:1.25;font-size:1rem;backgro
 100%{transform:rotate(3deg)}
 }
 button:focus,input:focus,select:focus,textarea:focus{outline:0}
-
-@import url(https://fonts.googleapis.com/css?family=Exo:100);
-@-webkit-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
+@-webkit-keyframes bg-scrolling-reverse{
+100%{background-position:50px 50px}
 }
-@-moz-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
+@-moz-keyframes bg-scrolling-reverse{
+100%{background-position:50px 50px}
 }
-@-o-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
+@-o-keyframes bg-scrolling-reverse{
+100%{background-position:50px 50px}
 }
-@keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
+@keyframes bg-scrolling-reverse{
+100%{background-position:50px 50px}
 }
-@-webkit-keyframes bg-scrolling {
-  0% {
-    background-position: 50px 50px;
-  }
+@-webkit-keyframes bg-scrolling{
+0%{background-position:50px 50px}
 }
-@-moz-keyframes bg-scrolling {
-  0% {
-    background-position: 50px 50px;
-  }
+@-moz-keyframes bg-scrolling{
+0%{background-position:50px 50px}
 }
-@-o-keyframes bg-scrolling {
-  0% {
-    background-position: 50px 50px;
-  }
+@-o-keyframes bg-scrolling{
+0%{background-position:50px 50px}
 }
-@keyframes bg-scrolling {
-  0% {
-    background-position: 50px 50px;
-  }
+@keyframes bg-scrolling{
+0%{background-position:50px 50px}
 }
-.work_item{
-  color: #999;
-  text-align: center;
-  background: url("imgs/DDDD.jpg") repeat 0 0;
-  background-size: 50px 50px;
-  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  -o-animation: bg-scrolling-reverse 0.92s infinite;
-  animation: bg-scrolling-reverse 0.92s infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  -o-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
-.work_item1{
-    color: #999;
-    text-align: center;
-    background: url("imgs/blocc_negate.png") repeat 0 0;
-    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-    -moz-animation: bg-scrolling-reverse 0.92s infinite;
-    -o-animation: bg-scrolling-reverse 0.92s infinite;
-    animation: bg-scrolling-reverse 0.92s infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -o-animation-timing-function: linear;
-    animation-timing-function: linear;
-}
-.newformdiv{
-    color: #999;
-    text-align: center;
-    background: url("imgs/Dis.png") repeat 0 0;
-    background-size: 50px 50px;
-    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-    -moz-animation: bg-scrolling-reverse 0.92s infinite;
-    -o-animation: bg-scrolling-reverse 0.92s infinite;
-    animation: bg-scrolling-reverse 0.92s infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -o-animation-timing-function: linear;
-    animation-timing-function: linear;
-}
-.changelog_block{
-    color: #999;
-    text-align: center;
-    background: url("imgs/DDDD.jpg") repeat 0 0;
-    background-size: 50px 50px;
-    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-    -moz-animation: bg-scrolling-reverse 0.92s infinite;
-    -o-animation: bg-scrolling-reverse 0.92s infinite;
-    animation: bg-scrolling-reverse 0.92s infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -o-animation-timing-function: linear;
-    animation-timing-function: linear;
-}
+.work_item1{color:#999;text-align:center;background:url(imgs/blocc_negate.png) repeat 0 0;-webkit-animation:bg-scrolling-reverse .92s infinite;-moz-animation:bg-scrolling-reverse .92s infinite;-o-animation:bg-scrolling-reverse .92s infinite;animation:bg-scrolling-reverse .92s infinite;-webkit-animation-timing-function:linear;-moz-animation-timing-function:linear;-o-animation-timing-function:linear;animation-timing-function:linear}
+.changelog_block{color:#999;text-align:center;background:url(imgs/DDDD.jpg) repeat 0 0;background-size:50px 50px;-webkit-animation:bg-scrolling-reverse .92s infinite;-moz-animation:bg-scrolling-reverse .92s infinite;-o-animation:bg-scrolling-reverse .92s infinite;animation:bg-scrolling-reverse .92s infinite;-webkit-animation-timing-function:linear;-moz-animation-timing-function:linear;-o-animation-timing-function:linear;animation-timing-function:linear}
