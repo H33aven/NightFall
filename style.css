@@ -1,9 +1,10 @@
 *{padding:0;margin:0;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 @font-face{font-family:Comfortaa;font-style:normal;font-weight:400;src:local("Comfortaa"),url(Comfortaa.ttf) format("woff2"),url(/Comfortaa.ttf) format("woff")}
 body{font-family:Comfortaa;color:#f0f0f0;line-height:1.25;font-size:1rem;background-color:#1b1b1b;max-width:100%;max-height:100%}
-.wrap{max-width:1280px;min-width:320px;margin:0 auto;padding:0 20px;box-sizing:border-box}
-.header{transition:all;transition-duration:1s;display:flex;align-items:center;justify-content:space-between;padding:0 35px;box-sizing:border-box;max-width:100%;padding-top:10px;position:fixed;width:100%;top:0;background:rgba(19,19,19,.7);z-index:999;box-shadow:rgba(0,0,0,.56) 0 22px 70px 4px}
-.header:hover{transition:all;transition-duration:1s;display:flex;align-items:center;justify-content:space-between;padding:0 35px;box-sizing:border-box;max-width:100%;margin:0 auto;position:fixed;width:100%;top:0;background:rgb(29,29,29,.9);background:-moz-linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);background:-webkit-linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);background:linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d", endColorstr="#1d1d1d", GradientType=1);z-index:999}
+.header_wrap{resize:none;align-items:center;display:grid;place-items:center}
+.wrap{resize:none;max-width:1280px;min-width:320px;margin:0 auto;padding:0 20px;box-sizing:border-box}
+.header{resize:none;border-radius:30px;transition:all;transition-duration:1s;display:flex;align-items:center;justify-content:space-between;padding:0 35px;box-sizing:border-box;max-width:80%;padding-top:10px;position:fixed;width:100%;top:0;background:rgba(19,19,19,.7);z-index:999;box-shadow:rgba(0,0,0,.56) 0 22px 70px 4px}
+.header:hover{resize:none;border-radius:30px;transition:all;transition-duration:1s;display:flex;align-items:center;justify-content:space-between;padding:0 35px;box-sizing:border-box;max-width:82%;margin:0 auto;position:fixed;width:100%;top:0;background:rgb(29,29,29,.9);background:-moz-linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);background:-webkit-linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);background:linear-gradient(90deg,rgba(29,29,29,0,8) 0,rgba(50,50,50,0,8) 50%,rgba(29,29,29,0,8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d1d1d", endColorstr="#1d1d1d", GradientType=1);z-index:999}
 .logotext{font-size:larger;display:flex;transition-duration:.2s;position:absolute;margin-left:55px;margin-top:16px;text-decoration:none;color:#f0f0f0}
 .menu{padding:0 20px;display:flex;list-style:none}
 .menu li{margin-left:30px}
@@ -59,3 +60,100 @@ body{font-family:Comfortaa;color:#f0f0f0;line-height:1.25;font-size:1rem;backgro
 100%{transform:rotate(3deg)}
 }
 button:focus,input:focus,select:focus,textarea:focus{outline:0}
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+.work_item{
+  color: #999;
+  text-align: center;
+  background: url("imgs/DDDD.jpg") repeat 0 0;
+  background-size: 50px 50px;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  animation: bg-scrolling-reverse 0.92s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.work_item1{
+    color: #999;
+    text-align: center;
+    background: url("imgs/blocc_negate.png") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.newformdiv{
+    color: #999;
+    text-align: center;
+    background: url("imgs/Dis.png") repeat 0 0;
+    background-size: 50px 50px;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.changelog_block{
+    color: #999;
+    text-align: center;
+    background: url("imgs/DDDD.jpg") repeat 0 0;
+    background-size: 50px 50px;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
